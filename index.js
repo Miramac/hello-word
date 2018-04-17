@@ -1,7 +1,7 @@
 const path = require('path')
 const edge = require('edge-js')
 
-// Compile C# and create JS Function
+// Compile the C# code and create a JS function
 let helloWord = edge.func('helloWord.cs')
 
 // Execute the function (sync)
